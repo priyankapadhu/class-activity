@@ -1,0 +1,24 @@
+<html>
+<h1 align="center">Thalli pogathe</h1>
+<body bgcolor="pink" align="center">
+<audio id="myAudio">
+  <source src="Thalli pogathe" type="audio/mpeg">
+</audio>
+<p><i> This Is My Favourite Song of sid sriram.</i></p>
+
+<button onclick="playAudio()" type="button">Play Audio</button>
+<button onclick="pauseAudio()" type="button">Pause Audio</button> 
+<script>
+var x = document.getElementById("myAudio"); 
+function playAudio() { 
+    x.play();
+   alert("SINGER: sid sriram"); 
+} 
+function pauseAudio() { 
+    x.pause();
+   alert("Song is paused.. Please press play audio button to resume!"); 
+} 
+</script>
+
+</body>
+</html>
